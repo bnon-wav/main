@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="BNON - Produtor Musical e Técnico de Áudio">
+    <title>BNON - Produtor Musical</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #0f0f0f;
+            color: #f5f5f5;
+        }
+
+        header {
+            background-color: #1a1a1a;
+            padding: 20px;
+            text-align: center;
+        }
+
+        header h1 {
+            font-size: 2.5em;
+            color: #ff8c00;
+            margin: 0;
+        }
+
+        nav {
+            margin: 20px 0;
+        }
+
+        nav a {
+            color: #f5f5f5;
+            text-decoration: none;
+            margin: 0 15px;
+        }
+
+        section {
+            padding: 50px;
+            text-align: center;
+        }
+
+        .about, .services, .contact {
+            background-color: #1a1a1a;
+            margin: 20px 0;
+            padding: 40px;
+            border-radius: 10px;
+        }
+
+        .about h2, .services h2, .contact h2 {
+            color: #ff8c00;
+        }
+
+        footer {
+            background-color: #1a1a1a;
+            padding: 10px;
+            text-align: center;
+            color: #f5f5f5;
+        }
+
+        footer a {
+            color: #ff8c00;
+            text-decoration: none;
+        }
+
+        button {
+            background-color: #ff8c00;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background-color: #e67e00;
+        }
+
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>BNON</h1>
+        <nav>
+            <a href="#home">Home</a>
+            <a href="#about">Sobre</a>
+            <a href="#services">Serviços</a>
+            <a href="#contact">Contato</a>
+        </nav>
+    </header>
+
+    <section id="home">
+        <h2>Bem-vindo ao mundo sonoro de BNON</h2>
+        <p>Transformando ideias em batidas, e batidas em experiências musicais únicas.</p>
+        <button>Ouça Agora</button>
+    </section>
+
+    <section id="about" class="about">
+        <h2>Sobre BNON</h2>
+        <p>BNON é produtor musical, técnico de áudio e palestrante, com anos de experiência na criação de sons que conectam pessoas. Na Produtora Subverso, ele transforma a música em arte, ajudando artistas a realizarem suas visões sonoras.</p>
+        <p>Seu trabalho vai além dos estúdios, contribuindo para a formação de novos talentos através de workshops e palestras nas periferias e eventos como o Conecta+, a maior feira de áudio do Brasil.</p>
+    </section>
+
+    <section id="services" class="services">
+        <h2>Serviços</h2>
+        <p>Confira os serviços que oferecemos:</p>
+        <ul>
+            <li>Produção Musical</li>
+            <li>Gravação</li>
+            <li>Mixagem e Masterização</li>
+            <li>Consultoria e Mentoria em Produção</li>
+        </ul>
+    </section>
+
+    <section id="contact" class="contact">
+        <h2>Contato</h2>
+        <p>Entre em contato para projetos e colaborações:</p>
+        <p>Email: <a href="mailto:contato@bnon.com">contato@bnon.com</a></p>
+        <p>Siga-me nas redes sociais:</p>
+        <a href="https://www.instagram.com/bnon.wav" target="_blank">Instagram</a> | 
+        <a href="https://www.facebook.com/bnon" target="_blank">Facebook</a>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 BNON. Todos os direitos reservados.</p>
+    </footer>
+
+</body>
+</html>
